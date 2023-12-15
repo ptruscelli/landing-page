@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
-    min-width: 50vw;
+    min-width: 700px;
 
 }
 
@@ -119,6 +119,12 @@ a {
     gap: 70px;
     margin: auto;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.wrap {
+    display: flex;
+    gap: 70px;
 }
 
 .card {
@@ -154,7 +160,7 @@ a {
     display: flex;
     flex-direction: column;
     flex-basis: 800px;
-    margin: auto;
+    margin: auto 40px;
 }
 
 .quote {
@@ -189,6 +195,7 @@ a {
     padding: 50px 25px;
     flex-basis: 1050px;
     border-radius: 14px;
+    margin: 0 30px;
 }
 
 .action-text {
